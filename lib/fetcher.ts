@@ -12,4 +12,4 @@ export default function fetcher(url: string, data = undefined) {
       }
       return res.json()
     })
-  }
+}

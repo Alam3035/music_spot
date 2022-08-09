@@ -37,8 +37,8 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       ):(
         <PlayerLayout>
-        <Component {...pageProps} />
-      </PlayerLayout>
+          <Component {...pageProps} />
+        </PlayerLayout>
       )}
     </ChakraProvider>
   )
