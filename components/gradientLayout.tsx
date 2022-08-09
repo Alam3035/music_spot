@@ -1,7 +1,6 @@
 import {Box, Flex, Text} from '@chakra-ui/layout'
 import {Image} from '@chakra-ui/react'
 
-
 const GradientLayout = ({color, children, image, subtitle, title, description, roundImage}) => {
     return (
         <Box
@@ -19,6 +18,9 @@ const GradientLayout = ({color, children, image, subtitle, title, description, r
                     <Text fontSize="x-small">{description}</Text>
                 </Box>
             </Flex>
+            <Box paddingY="50px">
+                {children}
+            </Box>
         </Box>
     )
 }
